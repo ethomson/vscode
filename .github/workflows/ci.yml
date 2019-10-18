@@ -40,7 +40,7 @@ jobs:
       name: Run Integration Tests
 
   windows:
-    runs-on: windows-latest
+    runs-on: windows-2016
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@v1
